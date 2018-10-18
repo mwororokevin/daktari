@@ -1,0 +1,214 @@
+/*!
+Theme Name: daktari
+Theme URI: http://underscores.me/
+Author: mwororokevin.com
+Author URI: http://mwororokevin.com
+Description: Description
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: daktari
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+*/
+
+/*--------------------------------------------------------------
+# Resizing the Logo
+--------------------------------------------------------------*/
+.custom-logo-link img{
+	height: 50px;
+	width: 150px;
+}
+
+/*--------------------------------------------------------------
+# Entry Title
+--------------------------------------------------------------*/
+.entry-title{
+	display: none;
+}
+
+/* 
+*
+*HEADER
+*
+*/
+
+header{
+	/* border-bottom-color: #7FDBFF; */
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+
+/* 
+*
+* Contact Form
+*
+*/
+
+.wpforms-title{
+    text-align: center;
+	color: #7FDBFF;
+	font-weight: 800;
+	font-family: 'Mali', cursive;
+}
+
+.contact-us{
+	padding: 150px;
+	background-color: #7FDBFF;
+}
+
+.contact-us label{
+	font-family: 'Mali', cursive;
+	color: #7FDBFF;
+}
+
+/* 
+*
+*FOOTER
+*
+*/
+
+.site-footer{
+	padding: 25px 0;
+	color: #black;
+}
+
+footer{
+	background-color: #aaaaaa;
+	min-height: 100px;
+}
+
+.footer-nav { 
+	display: block;
+	width:960px;
+}
+
+.footer-nav ul { 
+	display: inline;
+	text-align: left;
+}
+
+.footer-nav li {
+	list-style-type: none; 
+	display: inline; 
+	font-size: 16px;
+} 
+
+.footer-nav li a {
+	color: wheat;
+	line-height: 10px;
+	text-decoration: none;
+	font-weight: normal;
+	/* border-right: thin solid rgb(228, 193, 193); */
+	padding: 10px 7px 10px 7px;
+}
+
+.footer-nav li a:hover, .theme-info a:hover { 
+	color: #7FDBFF;
+	text-decoration: none;
+} 
+
+.footer-nav li:last-child > a {
+	border-right: none;
+} /* remove pipe from last item */
+
+.menu-footer-menu-container{
+	margin-left: auto;
+    margin-right: auto;
+	width: 100%;
+	text-align: center;
+}
+
+.theme-author-info{
+	margin-left: auto;
+    margin-right: auto;
+	width: 100%;
+	text-align: center;
+}
+
+.theme-info{
+	padding: 10px 7px 10px 3px;	
+	font-size: 16px;
+	text-align: left;
+	text-align: center;
+}
+
+.theme-info a{
+	color: wheat;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+/* #footer-co-name{
+	color: #7FDBFF;
+} */
+
+footer span{
+	color: #7FDBFF;
+}
+
+/*--------------------------------------------------------------
+# The Services Menu
+--------------------------------------------------------------*/
+.widget-area{
+	background-color: #6b9fcd;
+	padding: 20px 20px 20px 0px;
+	margin-bottom: 20px;
+	border: 2.5px;
+	border-color: black;
+	border-radius: 5px;
+}
+
+.widget-area li{
+	list-style-type: none;
+	color: white;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-size: 17px;
+	font-weight: 500;
+}
+
+.widget-area a:link {
+    text-decoration: none;
+	color: white;
+}
+
+.widget-area a:visited {
+    text-decoration: none;
+	color: white;
+}
+
+.widget-area a:hover {
+    /* text-decoration: underline; */
+	color: white;
+	text-decoration: underline;
+}
+
+.widget-area a:active {
+    text-decoration: underline;
+}
+
+.widget-title{
+	color: #fff;
+	text-transform: capitalize;
+	padding-left: 15px;
+}
+
+.service-menu-widget{
+	padding-top: 20px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+.sidebar{
+	width: 75%;
+}
+
+#sidebar-primary{
+	width: 100%;
+	margin: 15px 0px;
+	padding: 0px 0px;
+}
