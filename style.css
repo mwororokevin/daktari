@@ -73,12 +73,13 @@ header{
 
 .site-footer{
 	padding: 25px 0;
-	color: #black;
+	color: black;
 }
 
 footer{
 	background-color: #aaaaaa;
 	min-height: 100px;
+	margin-top: 25px;
 }
 
 .footer-nav { 
